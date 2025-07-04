@@ -1,0 +1,37 @@
+.app {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.todo-form input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+
+.todo-form button {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background: #f2f2f2;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
