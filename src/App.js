@@ -29,7 +29,15 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Todo List</h1>
+      <div className='navbar'>
+        <div className='title'>
+          <span>To-Do List</span>
+        </div>
+        <div className='vector1'></div>
+        <div className='vector2'></div>
+      </div>
+      
+      
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </div>
