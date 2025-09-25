@@ -1,37 +1,133 @@
 .app {
-  max-width: 500px;
+  max-width: 400px;
+  height: 550px;
+  background-color: #F4E6E1;
+  border: 4px solid #6F070E;
+  border-radius: 25px;
   margin: 50px auto;
   text-align: center;
   font-family: sans-serif;
+  cursor: url('../public/cursor.png'), auto;
+}
+
+.navbar{
+  width: 400px;
+  height: 70px;
+  background-color: #f8acb9;
+  position: absolute;
+  border-radius: 23px 23px 0 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  
+}
+
+.title{
+  width: 235px;
+  height: 28px;
+  background-color: #ef98a8;
+  border: none;
+  border-radius: 20px;
+  font-family: 'raleway';
+  font-size: 15px;
+  margin: 21px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 24px;
+}
+.title span{
+  color: #6F070E;
+}
+
+.vector1{
+  width: 18px;
+  height: 12px;
+  background-color: #f7e5e1;
+  border: 2px solid #6F070E ;
+  border-radius: 10px;
+  
+}
+.vector2{
+  width: 27px;
+  height: 12px;
+  background-color: #f7e5e1;
+  border: 2px solid #6F070E ;
+  border-radius: 10px;
+  
+}
+
+.todo-form{
+  background-color: #e7d7d2;
+  width: 336px;
+  height: 60px;
+  position: relative;
+  top: 442px;
+  margin: 32px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 10px;
+  
 }
 
 .todo-form input {
+  margin-top: 10px;
   padding: 10px;
   width: 70%;
-  font-size: 16px;
+  font-size: 13px;
+  background-color: #f7e5e1;
+  border: 2px solid #6F070E;
+  border-radius: 20px;
 }
 
 .todo-form button {
-  padding: 10px;
+  width: 63px;
+  height: 34px;
+  padding: 5px;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 13px;
+  border: 3px solid #6F070E;
+  border-radius: 20px;
+  background-color: #f5a2b2;
+  color: white;
+  cursor: url('../public/cursor.png'), auto;
 }
 
 .todo-list {
   list-style: none;
-  padding: 0;
+  padding: 0 40px;
+
 }
 
 .todo-item {
-  background: #f2f2f2;
+  background: #f7e5e1;
   margin: 10px 0;
-  padding: 10px;
+  
+  font-size: 13px;
+  border: 3px solid #6F070E;
+  border-radius: 20px;
   display: flex;
   justify-content: space-between;
-  cursor: pointer;
+  
 }
-
-.todo-item.completed span {
+.todo-item span{
+  padding: 5px 10px;
+  padding-top: 8px;
+}
+.todo-item button{
+  background-color: #f5a2b2;
+  border: none;
+  width: 65px;
+  height: 28px;
+  border-radius: 20px;
+  cursor: url('../public/cursor.png'), auto;
+}
+.todo-item.completed span{
   text-decoration: line-through;
   color: gray;
+}
+.todo-item.completed {
+  margin: 10px 50px;
+  
+  background-color: #E5D8CF;
+  width: 235px;
 }
