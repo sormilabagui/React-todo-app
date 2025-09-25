@@ -9,4 +9,4 @@ Includes functionality to add and delete tasks using React hooks.
 - JSX  
 - HTML/CSS for basic styling
 
-⚠️ Currently in academic phase. UI/UX improvements ongoing.
+ 🛠️ UI/UX improved.
